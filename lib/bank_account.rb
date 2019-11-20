@@ -12,8 +12,8 @@ class BankAccount
     @balance += amt
   end
 
-  def display_balances
-    "Your balance is #{self.balance}."
+  def display_balance
+    "Your balance is $#{self.balance}."
   end
 
   def valid?
