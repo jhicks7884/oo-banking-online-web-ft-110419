@@ -12,5 +12,3 @@ class BankAccount
     @balance +- amt
   end
  end
-
-  
