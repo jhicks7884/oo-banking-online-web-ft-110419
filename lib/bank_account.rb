@@ -11,4 +11,8 @@ class BankAccount
   def deposit(amt)
     @balance = 2000
   end
+
+  def display_balances
+    "your balance is $#{self.balance}."
+  end
  end
